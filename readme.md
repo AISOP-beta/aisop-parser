@@ -27,3 +27,4 @@ _endpoint = "https://os.zhdk.cloud.switch.ch/"
 
 https://help.switch.ch/engines/documentation/object-storage/s3-clients-and-libraries/
 
+*!*git 
