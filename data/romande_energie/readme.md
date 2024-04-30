@@ -1,15 +1,18 @@
 # Data sets made available by Romande Energie
 
 ## Rolle site ##
+
 Data stored is stored at: `DEEP - TM - RG-AA - RG-AA\030 - Execution\ERA-NET AISOP\400 - Work Packages\Power flow forecaster\data` consisting of a sample of smart meter data and data from a power quality monitoring device (i.e., grid eye) in *feeder 13*  of Rolle Hospital site. 
 
-## Other data files from KnowlEDGE ##
+## Other data files from KnowlEDGE ##
+
 * `V2dataset_feeder_analysis/11_hourly_1week_anon_meters.csv`
 * `V2dataset_feeder_analysis/12_mapping_feeder_information.csv`
 * `V2dataset_feeder_analysis/20_hopital_anon_grid.json`
 * `V2dataset_feeder_analysis/21_hopital_feeder13_anon_grid.json`
 
-## Time series data from Romande Energie ##
+## Time series data from Romande Energie ##
+
 Data from shared end of 2023 consists of time series data from a site, a LV system *Champ Monnet*, located in the town of Chapelle-sur-Moudon. The data concerns two MV-LV transformers.
 
 1. Station **Champ Monnet** (transformer Tr 7445 in the XML grid dataset): 4 LV cabinets and multiple nodes. The data of the transformer is contained in two files one for the LV side and the other for the MV side. The data regarding the 4 LV cabinets is contained in 4 files. Data behind the meter from a customer served by this grid is also available.
@@ -46,7 +49,8 @@ file name | description
 `Pache Home_PV installation.csv` | (72 kWp during the recording, soon 174 kWp)
 `Pache Home_Battery.csv` | (40 kWh/20 KVA)
 
-## Grid topology data from Romande Energie ##ß
+## Grid topology data from Romande Energie ##
+
 Romande energie grid includes grid levels 4 to 7, that is HV-MV transformers, MV grid, MV-LV transformers, and the LV grid. 
 
 Matpower grid topology data that were parse from CYME format to FlexDyn format are saved by ETH. Note that
