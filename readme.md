@@ -1,6 +1,6 @@
-# AISOP Parser
+# Parser and data consolidation
 
-Data parsing, grid topology modeling, and visualization toolkit for the [ERA-NET AISOP](https://www.aramis.admin.ch/) project on power flow forecasting in low-voltage distribution grids.
+Data parsing, grid topology modeling, and visualization for the [ERA-NET AISOP](https://www.aramis.admin.ch/) project on power decision for distribution system operators.
 
 ## Overview
 
