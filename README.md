@@ -14,7 +14,7 @@ This repository provides tools to:
 
 The primary dataset comes from the Romande Energie distribution network in the Chapelle-sur-Moudon region (Switzerland), covering two MV/LV transformers, four LV distribution cabinets, and behind-the-meter prosumer installations.
 
-## Project structure
+## Structure aimed at
 
 ```
 parser/src/          Source modules
@@ -32,16 +32,7 @@ data/
   plots/             Generated figures
 ```
 
-## Key dependencies
-
-| Category | Libraries |
-|---|---|
-| Data | pandas, numpy, polars, pyarrow, fastparquet |
-| Power systems | pandapower, GridCalEngine, pvlib, windpowerlib |
-| Visualization | matplotlib, seaborn, plotly, folium |
-| Geospatial | pyproj, geopy, networkx |
-| Optimization | or-tools, pymoo, cma, highspy |
-| ML / Stats | scikit-learn, scipy |
+## Dependencies
 
 See `requirements.txt` for the full list.
 
@@ -67,7 +58,7 @@ MATPOWER case files (`.m`) converted from CYME/XML via FlexDyn, covering HV-MV-L
 
 ### Meteorological data
 
-Multiple providers under `data/meteo/`: DWD, MeteoSwiss IDAWEB, Open-Meteo, Meteostat, Meteomatics, MeteoBlue, NREL.
+Parsing or fetching data from multiple providers would be under `data/meteo/`: DWD, MeteoSwiss IDAWEB, Open-Meteo, Meteostat, Meteomatics, MeteoBlue, NREL.
 
 ## Object storage
 
